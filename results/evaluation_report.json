@@ -1,0 +1,59 @@
+{
+  "bandit_eval": {
+    "UCB (trained)": {
+      "mean": 1.3005,
+      "std": 1.2391326603717618,
+      "median": 1.0
+    },
+    "Random": {
+      "mean": 1.1155,
+      "std": 1.2707909938302206,
+      "median": 1.0
+    },
+    "Rule-based": {
+      "mean": 1.2275,
+      "std": 1.2361204431607788,
+      "median": 1.0
+    },
+    "\u03b5-greedy": {
+      "mean": 1.2065,
+      "std": 1.2843705656857758,
+      "median": 1.0
+    }
+  },
+  "ppo_eval": {
+    "PPO (trained)": {
+      "mean": 2.131666666666667,
+      "std": 5.94258618410836,
+      "improvement_over_random": 1.390973355084285
+    },
+    "Random": {
+      "mean": 1.5325,
+      "std": 3.8271942689419656,
+      "improvement_over_random": 1.0
+    },
+    "Rule-based": {
+      "mean": 0.98,
+      "std": 2.634206606256321,
+      "improvement_over_random": 1.0
+    }
+  },
+  "multi_seed": {
+    "improvement_ratio": {
+      "mean": 1.0495295840398366,
+      "std": 0.027865486651011306,
+      "values": [
+        1.0380434782608694,
+        1.0642458100558658,
+        1.074792243767313,
+        1.0705663881151346,
+        1.0
+      ]
+    },
+    "mean_reward_final_1k": {
+      "mean": 1.1665,
+      "std": 0.04777551674236505
+    }
+  },
+  "bandit_improvement_ratio": 1.0495295840398366
+}

@@ -1,0 +1,849 @@
+{
+  "Q": {
+    "dynamic_programming_1d::mastered": {
+      "constraint_nudge": 2.3106060606060606,
+      "analogy_hint": 1.357142857142857,
+      "subproblem_decompose": 1.1666666666666667,
+      "complexity_clue": 2.106382978723404,
+      "pattern_name_reveal": 0.6666666666666666
+    },
+    "sliding_window::developing": {
+      "constraint_nudge": 0.6666666666666666,
+      "analogy_hint": 1.2999999999999998,
+      "subproblem_decompose": 0.925,
+      "complexity_clue": 1.0666666666666667,
+      "pattern_name_reveal": 0.2857142857142857
+    },
+    "arrays_hashing::mastered": {
+      "constraint_nudge": 2.264492753623189,
+      "analogy_hint": 1.1,
+      "subproblem_decompose": 1.2857142857142858,
+      "complexity_clue": 1.75,
+      "pattern_name_reveal": 1.375
+    },
+    "greedy::proficient": {
+      "constraint_nudge": 0.8947368421052629,
+      "analogy_hint": 1.3399999999999994,
+      "subproblem_decompose": 1.1923076923076923,
+      "complexity_clue": 1.2600000000000002,
+      "pattern_name_reveal": 0.8666666666666665
+    },
+    "linked_list::novice": {
+      "constraint_nudge": -0.18181818181818182,
+      "analogy_hint": 0.6583333333333335,
+      "subproblem_decompose": 0.5645161290322579,
+      "complexity_clue": -0.2777777777777778,
+      "pattern_name_reveal": 0.13157894736842105
+    },
+    "linked_list::mastered": {
+      "constraint_nudge": 2.1344086021505375,
+      "analogy_hint": 0.16666666666666669,
+      "subproblem_decompose": 0.75,
+      "complexity_clue": 2.2471910112359548,
+      "pattern_name_reveal": 0.3333333333333333
+    },
+    "stack::mastered": {
+      "constraint_nudge": 2.1808510638297873,
+      "analogy_hint": 0.6666666666666666,
+      "subproblem_decompose": 1.857142857142857,
+      "complexity_clue": 2.3648648648648654,
+      "pattern_name_reveal": 0.8333333333333333
+    },
+    "greedy::novice": {
+      "constraint_nudge": 0.0,
+      "analogy_hint": 0.6785714285714282,
+      "subproblem_decompose": 0.22222222222222218,
+      "complexity_clue": 1.3877787807814457e-17,
+      "pattern_name_reveal": 0.4062500000000001
+    },
+    "dynamic_programming_2d::developing": {
+      "constraint_nudge": 0.6612903225806451,
+      "analogy_hint": 0.5250000000000001,
+      "subproblem_decompose": 0.7368421052631577,
+      "complexity_clue": 0.6851851851851852,
+      "pattern_name_reveal": 0.5
+    },
+    "greedy::mastered": {
+      "constraint_nudge": 2.2199999999999993,
+      "analogy_hint": 0.5,
+      "subproblem_decompose": 1.9523809523809528,
+      "complexity_clue": 2.3465909090909096,
+      "pattern_name_reveal": 1.8809523809523807
+    },
+    "backtracking::proficient": {
+      "constraint_nudge": 1.3936170212765961,
+      "analogy_hint": 1.2115384615384615,
+      "subproblem_decompose": 1.2000000000000002,
+      "complexity_clue": 1.241379310344828,
+      "pattern_name_reveal": 0.0
+    },
+    "sliding_window::mastered": {
+      "constraint_nudge": 2.053571428571428,
+      "analogy_hint": 0.8,
+      "subproblem_decompose": 0.9166666666666666,
+      "complexity_clue": 2.053571428571428,
+      "pattern_name_reveal": 1.0714285714285716
+    },
+    "dynamic_programming_1d::developing": {
+      "constraint_nudge": 0.8484848484848486,
+      "analogy_hint": 0.7982456140350878,
+      "subproblem_decompose": 0.6527777777777778,
+      "complexity_clue": 0.7549019607843138,
+      "pattern_name_reveal": 0.13636363636363638
+    },
+    "tries::novice": {
+      "constraint_nudge": 0.39285714285714285,
+      "analogy_hint": 0.7096774193548385,
+      "subproblem_decompose": 0.565217391304348,
+      "complexity_clue": 1.3877787807814457e-17,
+      "pattern_name_reveal": 0.31818181818181823
+    },
+    "arrays_hashing::proficient": {
+      "constraint_nudge": 1.508403361344538,
+      "analogy_hint": 1.120689655172414,
+      "subproblem_decompose": 1.0416666666666665,
+      "complexity_clue": 0.7916666666666667,
+      "pattern_name_reveal": 0.5625
+    },
+    "arrays_hashing::novice": {
+      "constraint_nudge": 0.3214285714285715,
+      "analogy_hint": 0.6304347826086961,
+      "subproblem_decompose": 0.42857142857142844,
+      "complexity_clue": 0.03571428571428572,
+      "pattern_name_reveal": 0.31034482758620685
+    },
+    "binary_search::proficient": {
+      "constraint_nudge": 1.4666666666666672,
+      "analogy_hint": 1.2666666666666664,
+      "subproblem_decompose": 0.8749999999999999,
+      "complexity_clue": 1.173913043478261,
+      "pattern_name_reveal": -0.5
+    },
+    "backtracking::developing": {
+      "constraint_nudge": 0.7910447761194029,
+      "analogy_hint": 0.8440860215053765,
+      "subproblem_decompose": 0.6486486486486487,
+      "complexity_clue": 0.23076923076923078,
+      "pattern_name_reveal": 0.41666666666666663
+    },
+    "backtracking::mastered": {
+      "constraint_nudge": 2.196078431372549,
+      "analogy_hint": 1.7083333333333335,
+      "subproblem_decompose": 1.7941176470588236,
+      "complexity_clue": 2.394736842105263,
+      "pattern_name_reveal": 0.33333333333333337
+    },
+    "binary_search::novice": {
+      "constraint_nudge": 0.689189189189189,
+      "analogy_hint": 0.7624999999999998,
+      "subproblem_decompose": 0.6296296296296297,
+      "complexity_clue": -0.3,
+      "pattern_name_reveal": 0.06250000000000003
+    },
+    "greedy::developing": {
+      "constraint_nudge": 0.5588235294117646,
+      "analogy_hint": 1.0551181102362204,
+      "subproblem_decompose": 0.909090909090909,
+      "complexity_clue": 0.16666666666666669,
+      "pattern_name_reveal": 0.2727272727272727
+    },
+    "dynamic_programming_2d::novice": {
+      "constraint_nudge": 0.20588235294117646,
+      "analogy_hint": 0.6647058823529413,
+      "subproblem_decompose": 0.15624999999999994,
+      "complexity_clue": -0.125,
+      "pattern_name_reveal": 0.18749999999999997
+    },
+    "trees::proficient": {
+      "constraint_nudge": 1.4238095238095236,
+      "analogy_hint": 1.081081081081081,
+      "subproblem_decompose": 1.4521276595744677,
+      "complexity_clue": 0.5,
+      "pattern_name_reveal": 1.2033898305084751
+    },
+    "heap_priority_queue::developing": {
+      "constraint_nudge": 0.41666666666666674,
+      "analogy_hint": 0.9374999999999998,
+      "subproblem_decompose": 0.7040816326530612,
+      "complexity_clue": -0.07142857142857142,
+      "pattern_name_reveal": 0.49999999999999994
+    },
+    "linked_list::developing": {
+      "constraint_nudge": 0.5303030303030303,
+      "analogy_hint": 0.8597122302158274,
+      "subproblem_decompose": 0.6984126984126984,
+      "complexity_clue": 0.08333333333333334,
+      "pattern_name_reveal": 0.5952380952380952
+    },
+    "stack::novice": {
+      "constraint_nudge": 0.3823529411764706,
+      "analogy_hint": 0.6084337349397587,
+      "subproblem_decompose": 0.33928571428571425,
+      "complexity_clue": 1.3877787807814457e-17,
+      "pattern_name_reveal": 0.33333333333333326
+    },
+    "trees::developing": {
+      "constraint_nudge": 0.46296296296296297,
+      "analogy_hint": 0.9109947643979057,
+      "subproblem_decompose": 0.6634615384615383,
+      "complexity_clue": 0.675925925925926,
+      "pattern_name_reveal": 0.6862745098039215
+    },
+    "trees::novice": {
+      "constraint_nudge": 0.16666666666666666,
+      "analogy_hint": 0.7084870848708482,
+      "subproblem_decompose": 0.4765625000000001,
+      "complexity_clue": -0.4285714285714286,
+      "pattern_name_reveal": 0.24999999999999997
+    },
+    "dynamic_programming_1d::novice": {
+      "constraint_nudge": -0.07692307692307693,
+      "analogy_hint": 0.6333333333333333,
+      "subproblem_decompose": 0.34722222222222227,
+      "complexity_clue": -0.08333333333333334,
+      "pattern_name_reveal": -0.2777777777777778
+    },
+    "heap_priority_queue::proficient": {
+      "constraint_nudge": 1.2794117647058825,
+      "analogy_hint": 1.1538461538461535,
+      "subproblem_decompose": 1.1744186046511624,
+      "complexity_clue": 1.0555555555555556,
+      "pattern_name_reveal": 0.8823529411764706
+    },
+    "two_pointers::novice": {
+      "constraint_nudge": -6.938893903907228e-18,
+      "analogy_hint": 0.45161290322580644,
+      "subproblem_decompose": -0.4,
+      "complexity_clue": -0.3333333333333333,
+      "pattern_name_reveal": 0.35714285714285715
+    },
+    "backtracking::novice": {
+      "constraint_nudge": 0.02631578947368426,
+      "analogy_hint": 0.6213235294117649,
+      "subproblem_decompose": 0.1833333333333334,
+      "complexity_clue": -0.375,
+      "pattern_name_reveal": 0.2619047619047619
+    },
+    "linked_list::proficient": {
+      "constraint_nudge": 1.3963414634146338,
+      "analogy_hint": 1.2941176470588236,
+      "subproblem_decompose": 1.338709677419355,
+      "complexity_clue": 1.415662650602409,
+      "pattern_name_reveal": 0.9750000000000002
+    },
+    "dynamic_programming_1d::proficient": {
+      "constraint_nudge": 1.5049504950495054,
+      "analogy_hint": 1.1521739130434783,
+      "subproblem_decompose": 1.1600000000000004,
+      "complexity_clue": 1.536764705882353,
+      "pattern_name_reveal": 0.5
+    },
+    "trees::mastered": {
+      "constraint_nudge": 2.1393442622950807,
+      "analogy_hint": 1.5454545454545456,
+      "subproblem_decompose": 1.7352941176470587,
+      "complexity_clue": 2.4148936170212765,
+      "pattern_name_reveal": 1.763157894736842
+    },
+    "graphs::proficient": {
+      "constraint_nudge": 1.05,
+      "analogy_hint": 0.0,
+      "subproblem_decompose": -0.16666666666666666,
+      "complexity_clue": 1.378048780487805,
+      "pattern_name_reveal": 0.5
+    },
+    "two_pointers::developing": {
+      "constraint_nudge": 0.8043478260869567,
+      "analogy_hint": 0.7619047619047619,
+      "subproblem_decompose": 0.7368421052631577,
+      "complexity_clue": 0.5416666666666667,
+      "pattern_name_reveal": 0.9333333333333335
+    },
+    "two_pointers::mastered": {
+      "constraint_nudge": 2.166666666666667,
+      "analogy_hint": 1.2,
+      "subproblem_decompose": 1.25,
+      "complexity_clue": 2.333333333333333,
+      "pattern_name_reveal": 0.5
+    },
+    "sliding_window::novice": {
+      "constraint_nudge": 0.16666666666666666,
+      "analogy_hint": 0.561643835616438,
+      "subproblem_decompose": 0.17647058823529407,
+      "complexity_clue": 0.1842105263157895,
+      "pattern_name_reveal": 0.3269230769230769
+    },
+    "stack::proficient": {
+      "constraint_nudge": 1.5128205128205123,
+      "analogy_hint": 1.0750000000000002,
+      "subproblem_decompose": 1.1458333333333335,
+      "complexity_clue": 1.3157894736842106,
+      "pattern_name_reveal": 0.8181818181818182
+    },
+    "two_pointers::proficient": {
+      "constraint_nudge": 1.3529411764705883,
+      "analogy_hint": 1.3125,
+      "subproblem_decompose": 0.7142857142857144,
+      "complexity_clue": 1.3043478260869563,
+      "pattern_name_reveal": 0.9444444444444444
+    },
+    "stack::developing": {
+      "constraint_nudge": 0.2222222222222222,
+      "analogy_hint": 1.0815602836879425,
+      "subproblem_decompose": 0.2916666666666667,
+      "complexity_clue": 0.31818181818181823,
+      "pattern_name_reveal": 0.673076923076923
+    },
+    "heap_priority_queue::novice": {
+      "constraint_nudge": 0.40740740740740733,
+      "analogy_hint": 0.7577319587628863,
+      "subproblem_decompose": -0.25,
+      "complexity_clue": -0.25,
+      "pattern_name_reveal": 0.44827586206896547
+    },
+    "dynamic_programming_2d::mastered": {
+      "constraint_nudge": 2.125,
+      "analogy_hint": 1.0,
+      "subproblem_decompose": 2.066666666666666,
+      "complexity_clue": 2.3181818181818192,
+      "pattern_name_reveal": 0.5
+    },
+    "arrays_hashing::developing": {
+      "constraint_nudge": 0.888157894736842,
+      "analogy_hint": 0.8275862068965518,
+      "subproblem_decompose": -0.2,
+      "complexity_clue": 0.6666666666666665,
+      "pattern_name_reveal": 0.5416666666666667
+    },
+    "graphs::novice": {
+      "constraint_nudge": 0.13636363636363635,
+      "analogy_hint": -0.16666666666666669,
+      "subproblem_decompose": 0.25,
+      "complexity_clue": 0.13636363636363638,
+      "pattern_name_reveal": 0.29411764705882354
+    },
+    "tries::mastered": {
+      "constraint_nudge": 2.5000000000000004,
+      "analogy_hint": 2.0,
+      "subproblem_decompose": 1.1666666666666665,
+      "complexity_clue": 2.4696969696969697,
+      "pattern_name_reveal": 1.1666666666666665
+    },
+    "heap_priority_queue::mastered": {
+      "constraint_nudge": 2.3030303030303036,
+      "analogy_hint": 1.7666666666666666,
+      "subproblem_decompose": 1.7,
+      "complexity_clue": 2.1796874999999987,
+      "pattern_name_reveal": 1.7812499999999998
+    },
+    "tries::developing": {
+      "constraint_nudge": 0.6428571428571429,
+      "analogy_hint": 1.328571428571429,
+      "subproblem_decompose": 1.088235294117647,
+      "complexity_clue": 0.6875,
+      "pattern_name_reveal": 0.0
+    },
+    "dynamic_programming_2d::proficient": {
+      "constraint_nudge": 1.5000000000000002,
+      "analogy_hint": 1.4411764705882353,
+      "subproblem_decompose": 0.5714285714285715,
+      "complexity_clue": 0.8928571428571429,
+      "pattern_name_reveal": 0.7777777777777778
+    },
+    "binary_search::developing": {
+      "constraint_nudge": 0.4230769230769231,
+      "analogy_hint": 0.5,
+      "subproblem_decompose": 0.5555555555555555,
+      "complexity_clue": 0.9186046511627908,
+      "pattern_name_reveal": 0.4230769230769232
+    },
+    "tries::proficient": {
+      "constraint_nudge": 1.4545454545454553,
+      "analogy_hint": 0.7777777777777778,
+      "subproblem_decompose": 0.5833333333333333,
+      "complexity_clue": 0.6428571428571429,
+      "pattern_name_reveal": -0.33333333333333337
+    },
+    "graphs::mastered": {
+      "constraint_nudge": 1.8888888888888888,
+      "analogy_hint": 1.8888888888888888,
+      "subproblem_decompose": 1.8749999999999998,
+      "complexity_clue": 2.435483870967742,
+      "pattern_name_reveal": 1.375
+    },
+    "graphs::developing": {
+      "constraint_nudge": 0.65,
+      "analogy_hint": 0.9285714285714286,
+      "subproblem_decompose": 0.4,
+      "complexity_clue": 0.5714285714285714,
+      "pattern_name_reveal": 0.8636363636363638
+    },
+    "binary_search::mastered": {
+      "constraint_nudge": 2.0833333333333344,
+      "analogy_hint": 1.6,
+      "subproblem_decompose": 1.3124999999999998,
+      "complexity_clue": 2.2777777777777772,
+      "pattern_name_reveal": 0.8333333333333333
+    },
+    "sliding_window::proficient": {
+      "constraint_nudge": 1.2413793103448274,
+      "analogy_hint": 1.3552631578947367,
+      "subproblem_decompose": 0.8636363636363636,
+      "complexity_clue": 1.5099999999999996,
+      "pattern_name_reveal": 0.0
+    }
+  },
+  "n": {
+    "dynamic_programming_1d::mastered": {
+      "constraint_nudge": 132,
+      "analogy_hint": 7,
+      "subproblem_decompose": 6,
+      "complexity_clue": 47,
+      "pattern_name_reveal": 3
+    },
+    "sliding_window::developing": {
+      "constraint_nudge": 12,
+      "analogy_hint": 65,
+      "subproblem_decompose": 20,
+      "complexity_clue": 30,
+      "pattern_name_reveal": 7
+    },
+    "arrays_hashing::mastered": {
+      "constraint_nudge": 138,
+      "analogy_hint": 5,
+      "subproblem_decompose": 7,
+      "complexity_clue": 14,
+      "pattern_name_reveal": 8
+    },
+    "greedy::proficient": {
+      "constraint_nudge": 19,
+      "analogy_hint": 75,
+      "subproblem_decompose": 39,
+      "complexity_clue": 50,
+      "pattern_name_reveal": 15
+    },
+    "linked_list::novice": {
+      "constraint_nudge": 11,
+      "analogy_hint": 180,
+      "subproblem_decompose": 93,
+      "complexity_clue": 9,
+      "pattern_name_reveal": 19
+    },
+    "linked_list::mastered": {
+      "constraint_nudge": 93,
+      "analogy_hint": 3,
+      "subproblem_decompose": 4,
+      "complexity_clue": 178,
+      "pattern_name_reveal": 3
+    },
+    "stack::mastered": {
+      "constraint_nudge": 47,
+      "analogy_hint": 3,
+      "subproblem_decompose": 14,
+      "complexity_clue": 111,
+      "pattern_name_reveal": 3
+    },
+    "greedy::novice": {
+      "constraint_nudge": 12,
+      "analogy_hint": 112,
+      "subproblem_decompose": 18,
+      "complexity_clue": 12,
+      "pattern_name_reveal": 32
+    },
+    "dynamic_programming_2d::developing": {
+      "constraint_nudge": 31,
+      "analogy_hint": 20,
+      "subproblem_decompose": 38,
+      "complexity_clue": 27,
+      "pattern_name_reveal": 18
+    },
+    "greedy::mastered": {
+      "constraint_nudge": 50,
+      "analogy_hint": 3,
+      "subproblem_decompose": 21,
+      "complexity_clue": 88,
+      "pattern_name_reveal": 21
+    },
+    "backtracking::proficient": {
+      "constraint_nudge": 94,
+      "analogy_hint": 52,
+      "subproblem_decompose": 50,
+      "complexity_clue": 58,
+      "pattern_name_reveal": 4
+    },
+    "sliding_window::mastered": {
+      "constraint_nudge": 56,
+      "analogy_hint": 5,
+      "subproblem_decompose": 6,
+      "complexity_clue": 56,
+      "pattern_name_reveal": 7
+    },
+    "dynamic_programming_1d::developing": {
+      "constraint_nudge": 66,
+      "analogy_hint": 57,
+      "subproblem_decompose": 36,
+      "complexity_clue": 51,
+      "pattern_name_reveal": 11
+    },
+    "tries::novice": {
+      "constraint_nudge": 14,
+      "analogy_hint": 31,
+      "subproblem_decompose": 23,
+      "complexity_clue": 6,
+      "pattern_name_reveal": 11
+    },
+    "arrays_hashing::proficient": {
+      "constraint_nudge": 119,
+      "analogy_hint": 29,
+      "subproblem_decompose": 24,
+      "complexity_clue": 12,
+      "pattern_name_reveal": 8
+    },
+    "arrays_hashing::novice": {
+      "constraint_nudge": 28,
+      "analogy_hint": 115,
+      "subproblem_decompose": 35,
+      "complexity_clue": 14,
+      "pattern_name_reveal": 29
+    },
+    "binary_search::proficient": {
+      "constraint_nudge": 60,
+      "analogy_hint": 30,
+      "subproblem_decompose": 12,
+      "complexity_clue": 23,
+      "pattern_name_reveal": 3
+    },
+    "backtracking::developing": {
+      "constraint_nudge": 67,
+      "analogy_hint": 93,
+      "subproblem_decompose": 37,
+      "complexity_clue": 13,
+      "pattern_name_reveal": 18
+    },
+    "backtracking::mastered": {
+      "constraint_nudge": 51,
+      "analogy_hint": 12,
+      "subproblem_decompose": 17,
+      "complexity_clue": 133,
+      "pattern_name_reveal": 3
+    },
+    "binary_search::novice": {
+      "constraint_nudge": 37,
+      "analogy_hint": 40,
+      "subproblem_decompose": 27,
+      "complexity_clue": 5,
+      "pattern_name_reveal": 8
+    },
+    "greedy::developing": {
+      "constraint_nudge": 17,
+      "analogy_hint": 127,
+      "subproblem_decompose": 22,
+      "complexity_clue": 9,
+      "pattern_name_reveal": 11
+    },
+    "dynamic_programming_2d::novice": {
+      "constraint_nudge": 17,
+      "analogy_hint": 85,
+      "subproblem_decompose": 16,
+      "complexity_clue": 8,
+      "pattern_name_reveal": 16
+    },
+    "trees::proficient": {
+      "constraint_nudge": 210,
+      "analogy_hint": 37,
+      "subproblem_decompose": 94,
+      "complexity_clue": 10,
+      "pattern_name_reveal": 59
+    },
+    "heap_priority_queue::developing": {
+      "constraint_nudge": 18,
+      "analogy_hint": 104,
+      "subproblem_decompose": 49,
+      "complexity_clue": 7,
+      "pattern_name_reveal": 23
+    },
+    "linked_list::developing": {
+      "constraint_nudge": 33,
+      "analogy_hint": 139,
+      "subproblem_decompose": 63,
+      "complexity_clue": 12,
+      "pattern_name_reveal": 42
+    },
+    "stack::novice": {
+      "constraint_nudge": 34,
+      "analogy_hint": 83,
+      "subproblem_decompose": 28,
+      "complexity_clue": 13,
+      "pattern_name_reveal": 30
+    },
+    "trees::developing": {
+      "constraint_nudge": 27,
+      "analogy_hint": 191,
+      "subproblem_decompose": 52,
+      "complexity_clue": 54,
+      "pattern_name_reveal": 51
+    },
+    "trees::novice": {
+      "constraint_nudge": 21,
+      "analogy_hint": 271,
+      "subproblem_decompose": 64,
+      "complexity_clue": 7,
+      "pattern_name_reveal": 28
+    },
+    "dynamic_programming_1d::novice": {
+      "constraint_nudge": 13,
+      "analogy_hint": 150,
+      "subproblem_decompose": 36,
+      "complexity_clue": 12,
+      "pattern_name_reveal": 9
+    },
+    "heap_priority_queue::proficient": {
+      "constraint_nudge": 68,
+      "analogy_hint": 39,
+      "subproblem_decompose": 43,
+      "complexity_clue": 27,
+      "pattern_name_reveal": 17
+    },
+    "two_pointers::novice": {
+      "constraint_nudge": 10,
+      "analogy_hint": 31,
+      "subproblem_decompose": 5,
+      "complexity_clue": 6,
+      "pattern_name_reveal": 21
+    },
+    "backtracking::novice": {
+      "constraint_nudge": 19,
+      "analogy_hint": 136,
+      "subproblem_decompose": 30,
+      "complexity_clue": 8,
+      "pattern_name_reveal": 42
+    },
+    "linked_list::proficient": {
+      "constraint_nudge": 82,
+      "analogy_hint": 17,
+      "subproblem_decompose": 62,
+      "complexity_clue": 83,
+      "pattern_name_reveal": 20
+    },
+    "dynamic_programming_1d::proficient": {
+      "constraint_nudge": 101,
+      "analogy_hint": 23,
+      "subproblem_decompose": 25,
+      "complexity_clue": 68,
+      "pattern_name_reveal": 6
+    },
+    "trees::mastered": {
+      "constraint_nudge": 61,
+      "analogy_hint": 11,
+      "subproblem_decompose": 17,
+      "complexity_clue": 282,
+      "pattern_name_reveal": 19
+    },
+    "graphs::proficient": {
+      "constraint_nudge": 10,
+      "analogy_hint": 3,
+      "subproblem_decompose": 3,
+      "complexity_clue": 41,
+      "pattern_name_reveal": 5
+    },
+    "two_pointers::developing": {
+      "constraint_nudge": 23,
+      "analogy_hint": 21,
+      "subproblem_decompose": 19,
+      "complexity_clue": 12,
+      "pattern_name_reveal": 15
+    },
+    "two_pointers::mastered": {
+      "constraint_nudge": 15,
+      "analogy_hint": 5,
+      "subproblem_decompose": 6,
+      "complexity_clue": 39,
+      "pattern_name_reveal": 3
+    },
+    "sliding_window::novice": {
+      "constraint_nudge": 18,
+      "analogy_hint": 73,
+      "subproblem_decompose": 17,
+      "complexity_clue": 19,
+      "pattern_name_reveal": 26
+    },
+    "stack::proficient": {
+      "constraint_nudge": 117,
+      "analogy_hint": 20,
+      "subproblem_decompose": 24,
+      "complexity_clue": 19,
+      "pattern_name_reveal": 11
+    },
+    "two_pointers::proficient": {
+      "constraint_nudge": 17,
+      "analogy_hint": 24,
+      "subproblem_decompose": 7,
+      "complexity_clue": 23,
+      "pattern_name_reveal": 9
+    },
+    "stack::developing": {
+      "constraint_nudge": 9,
+      "analogy_hint": 141,
+      "subproblem_decompose": 12,
+      "complexity_clue": 11,
+      "pattern_name_reveal": 26
+    },
+    "heap_priority_queue::novice": {
+      "constraint_nudge": 27,
+      "analogy_hint": 97,
+      "subproblem_decompose": 6,
+      "complexity_clue": 6,
+      "pattern_name_reveal": 29
+    },
+    "dynamic_programming_2d::mastered": {
+      "constraint_nudge": 36,
+      "analogy_hint": 6,
+      "subproblem_decompose": 30,
+      "complexity_clue": 77,
+      "pattern_name_reveal": 3
+    },
+    "arrays_hashing::developing": {
+      "constraint_nudge": 76,
+      "analogy_hint": 58,
+      "subproblem_decompose": 5,
+      "complexity_clue": 30,
+      "pattern_name_reveal": 24
+    },
+    "graphs::novice": {
+      "constraint_nudge": 11,
+      "analogy_hint": 6,
+      "subproblem_decompose": 12,
+      "complexity_clue": 11,
+      "pattern_name_reveal": 17
+    },
+    "tries::mastered": {
+      "constraint_nudge": 33,
+      "analogy_hint": 9,
+      "subproblem_decompose": 3,
+      "complexity_clue": 33,
+      "pattern_name_reveal": 3
+    },
+    "heap_priority_queue::mastered": {
+      "constraint_nudge": 99,
+      "analogy_hint": 15,
+      "subproblem_decompose": 15,
+      "complexity_clue": 64,
+      "pattern_name_reveal": 16
+    },
+    "tries::developing": {
+      "constraint_nudge": 7,
+      "analogy_hint": 35,
+      "subproblem_decompose": 17,
+      "complexity_clue": 8,
+      "pattern_name_reveal": 3
+    },
+    "dynamic_programming_2d::proficient": {
+      "constraint_nudge": 45,
+      "analogy_hint": 68,
+      "subproblem_decompose": 7,
+      "complexity_clue": 14,
+      "pattern_name_reveal": 9
+    },
+    "binary_search::developing": {
+      "constraint_nudge": 13,
+      "analogy_hint": 16,
+      "subproblem_decompose": 18,
+      "complexity_clue": 43,
+      "pattern_name_reveal": 13
+    },
+    "tries::proficient": {
+      "constraint_nudge": 44,
+      "analogy_hint": 9,
+      "subproblem_decompose": 6,
+      "complexity_clue": 7,
+      "pattern_name_reveal": 3
+    },
+    "graphs::mastered": {
+      "constraint_nudge": 9,
+      "analogy_hint": 9,
+      "subproblem_decompose": 8,
+      "complexity_clue": 31,
+      "pattern_name_reveal": 4
+    },
+    "graphs::developing": {
+      "constraint_nudge": 10,
+      "analogy_hint": 14,
+      "subproblem_decompose": 5,
+      "complexity_clue": 7,
+      "pattern_name_reveal": 11
+    },
+    "binary_search::mastered": {
+      "constraint_nudge": 42,
+      "analogy_hint": 10,
+      "subproblem_decompose": 8,
+      "complexity_clue": 63,
+      "pattern_name_reveal": 3
+    },
+    "sliding_window::proficient": {
+      "constraint_nudge": 29,
+      "analogy_hint": 38,
+      "subproblem_decompose": 11,
+      "complexity_clue": 50,
+      "pattern_name_reveal": 3
+    }
+  },
+  "N": {
+    "dynamic_programming_1d::mastered": 195,
+    "sliding_window::developing": 134,
+    "arrays_hashing::mastered": 172,
+    "greedy::proficient": 198,
+    "linked_list::novice": 312,
+    "linked_list::mastered": 281,
+    "stack::mastered": 178,
+    "greedy::novice": 186,
+    "dynamic_programming_2d::developing": 134,
+    "greedy::mastered": 183,
+    "backtracking::proficient": 258,
+    "sliding_window::mastered": 130,
+    "dynamic_programming_1d::developing": 221,
+    "tries::novice": 85,
+    "arrays_hashing::proficient": 192,
+    "arrays_hashing::novice": 221,
+    "binary_search::proficient": 128,
+    "backtracking::developing": 228,
+    "backtracking::mastered": 216,
+    "binary_search::novice": 117,
+    "greedy::developing": 186,
+    "dynamic_programming_2d::novice": 142,
+    "trees::proficient": 410,
+    "heap_priority_queue::developing": 201,
+    "linked_list::developing": 289,
+    "stack::novice": 188,
+    "trees::developing": 375,
+    "trees::novice": 391,
+    "dynamic_programming_1d::novice": 220,
+    "heap_priority_queue::proficient": 194,
+    "two_pointers::novice": 73,
+    "backtracking::novice": 235,
+    "linked_list::proficient": 264,
+    "dynamic_programming_1d::proficient": 223,
+    "trees::mastered": 390,
+    "graphs::proficient": 62,
+    "two_pointers::developing": 90,
+    "two_pointers::mastered": 68,
+    "sliding_window::novice": 153,
+    "stack::proficient": 191,
+    "two_pointers::proficient": 80,
+    "stack::developing": 199,
+    "heap_priority_queue::novice": 165,
+    "dynamic_programming_2d::mastered": 152,
+    "arrays_hashing::developing": 193,
+    "graphs::novice": 57,
+    "tries::mastered": 81,
+    "heap_priority_queue::mastered": 209,
+    "tries::developing": 70,
+    "dynamic_programming_2d::proficient": 143,
+    "binary_search::developing": 103,
+    "tries::proficient": 69,
+    "graphs::mastered": 61,
+    "graphs::developing": 47,
+    "binary_search::mastered": 126,
+    "sliding_window::proficient": 131
+  },
+  "t": 10000
+}
