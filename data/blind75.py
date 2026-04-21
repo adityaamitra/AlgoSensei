@@ -1,0 +1,117 @@
+"""data/blind75.py — Blind 75 problem registry (95 problems, 14 patterns)."""
+from dataclasses import dataclass
+from typing import Optional
+
+@dataclass(frozen=True)
+class Problem:
+    id: int
+    title: str
+    pattern: str
+    difficulty: str   # easy | medium | hard
+    insight: str
+
+BLIND75 = [
+    Problem(1,  "Two Sum",                              "arrays_hashing",         "easy",   "hash map complement lookup"),
+    Problem(2,  "Best Time to Buy and Sell Stock",      "arrays_hashing",         "easy",   "track running minimum"),
+    Problem(3,  "Contains Duplicate",                   "arrays_hashing",         "easy",   "set insertion check"),
+    Problem(4,  "Product of Array Except Self",         "arrays_hashing",         "medium", "prefix and suffix products"),
+    Problem(5,  "Maximum Subarray",                     "arrays_hashing",         "medium", "Kadane's algorithm"),
+    Problem(6,  "Maximum Product Subarray",             "arrays_hashing",         "medium", "track max and min products"),
+    Problem(7,  "Find Minimum in Rotated Array",        "arrays_hashing",         "medium", "binary search on rotation"),
+    Problem(8,  "Search in Rotated Sorted Array",       "arrays_hashing",         "medium", "one half always sorted"),
+    Problem(9,  "3Sum",                                 "two_pointers",           "medium", "sort then two-pointer scan"),
+    Problem(10, "Container With Most Water",            "two_pointers",           "medium", "move shorter wall inward"),
+    Problem(11, "Valid Palindrome",                     "two_pointers",           "easy",   "skip non-alphanumeric"),
+    Problem(12, "Longest Substring Without Repeating",  "sliding_window",         "medium", "expand right shrink left on dup"),
+    Problem(13, "Longest Repeating Char Replacement",   "sliding_window",         "medium", "window_size - max_freq <= k"),
+    Problem(14, "Permutation in String",                "sliding_window",         "medium", "fixed-size frequency window"),
+    Problem(15, "Minimum Window Substring",             "sliding_window",         "hard",   "expand then shrink to minimize"),
+    Problem(16, "Sliding Window Maximum",               "sliding_window",         "hard",   "monotonic deque"),
+    Problem(17, "Valid Parentheses",                    "stack",                  "easy",   "push opens pop on close"),
+    Problem(18, "Min Stack",                            "stack",                  "medium", "parallel min tracking"),
+    Problem(19, "Evaluate Reverse Polish Notation",     "stack",                  "medium", "push operands pop on operator"),
+    Problem(20, "Generate Parentheses",                 "stack",                  "medium", "backtrack open < n close < open"),
+    Problem(21, "Daily Temperatures",                   "stack",                  "medium", "monotonic stack pop on warmer"),
+    Problem(22, "Car Fleet",                            "stack",                  "medium", "sort by position stack times"),
+    Problem(23, "Largest Rectangle in Histogram",       "stack",                  "hard",   "monotonic stack pop on shorter"),
+    Problem(24, "Binary Search",                        "binary_search",          "easy",   "lo hi mid convergence"),
+    Problem(25, "Search a 2D Matrix",                   "binary_search",          "medium", "flatten to 1D binary search"),
+    Problem(26, "Koko Eating Bananas",                  "binary_search",          "medium", "binary search on answer"),
+    Problem(27, "Find Min in Rotated Array II",         "binary_search",          "hard",   "binary search inflection"),
+    Problem(28, "Median of Two Sorted Arrays",          "binary_search",          "hard",   "binary search partition"),
+    Problem(29, "Reverse Linked List",                  "linked_list",            "easy",   "three pointer in-place"),
+    Problem(30, "Merge Two Sorted Lists",               "linked_list",            "easy",   "compare heads iteratively"),
+    Problem(31, "Reorder List",                         "linked_list",            "medium", "mid reverse merge"),
+    Problem(32, "Remove Nth From End",                  "linked_list",            "medium", "two pointers n apart"),
+    Problem(33, "Copy List with Random Pointer",        "linked_list",            "medium", "hash map old to new"),
+    Problem(34, "Add Two Numbers",                      "linked_list",            "medium", "simulate with carry"),
+    Problem(35, "Linked List Cycle",                    "linked_list",            "easy",   "Floyd fast slow"),
+    Problem(36, "Find the Duplicate Number",            "linked_list",            "medium", "Floyd on implicit list"),
+    Problem(37, "LRU Cache",                            "linked_list",            "medium", "doubly linked list plus hashmap"),
+    Problem(38, "Merge K Sorted Lists",                 "linked_list",            "hard",   "min heap k-way merge"),
+    Problem(39, "Reverse Nodes in k-Group",             "linked_list",            "hard",   "reverse k nodes stitch tail"),
+    Problem(40, "Invert Binary Tree",                   "trees",                  "easy",   "swap children recursively"),
+    Problem(41, "Maximum Depth Binary Tree",            "trees",                  "easy",   "1 + max left right depth"),
+    Problem(42, "Diameter of Binary Tree",              "trees",                  "easy",   "left height + right height"),
+    Problem(43, "Balanced Binary Tree",                 "trees",                  "easy",   "postorder return -1 if unbalanced"),
+    Problem(44, "Same Tree",                            "trees",                  "easy",   "recursive val left right check"),
+    Problem(45, "Subtree of Another Tree",              "trees",                  "easy",   "isSameTree at every node"),
+    Problem(46, "Lowest Common Ancestor BST",          "trees",                  "medium", "diverge at root means LCA"),
+    Problem(47, "Level Order Traversal",                "trees",                  "medium", "BFS snapshot queue size"),
+    Problem(48, "Right Side View",                      "trees",                  "medium", "BFS last node per level"),
+    Problem(49, "Count Good Nodes",                     "trees",                  "medium", "DFS with max_so_far"),
+    Problem(50, "Validate BST",                         "trees",                  "medium", "DFS with min max bounds"),
+    Problem(51, "Kth Smallest in BST",                  "trees",                  "medium", "inorder is sorted"),
+    Problem(52, "Construct BT Preorder Inorder",        "trees",                  "medium", "preorder root splits inorder"),
+    Problem(53, "Max Path Sum",                         "trees",                  "hard",   "global max left+right gain"),
+    Problem(54, "Serialize Deserialize BT",             "trees",                  "hard",   "BFS with null markers"),
+    Problem(55, "Implement Trie",                       "tries",                  "medium", "children dict is_end flag"),
+    Problem(56, "Design Add Search Words",              "tries",                  "medium", "trie with dot DFS"),
+    Problem(57, "Word Search II",                       "tries",                  "hard",   "trie DFS on board"),
+    Problem(58, "Kth Largest in Stream",                "heap_priority_queue",    "easy",   "min heap size k"),
+    Problem(59, "Last Stone Weight",                    "heap_priority_queue",    "easy",   "max heap smash two"),
+    Problem(60, "K Closest Points",                     "heap_priority_queue",    "medium", "max heap size k evict"),
+    Problem(61, "Kth Largest in Array",                 "heap_priority_queue",    "medium", "quickselect or min heap"),
+    Problem(62, "Task Scheduler",                       "heap_priority_queue",    "medium", "greedy most frequent"),
+    Problem(63, "Design Twitter",                       "heap_priority_queue",    "medium", "k-way merge heap"),
+    Problem(64, "Find Median Data Stream",              "heap_priority_queue",    "hard",   "two heaps lower upper"),
+    Problem(65, "Subsets",                              "backtracking",           "medium", "include exclude at each index"),
+    Problem(66, "Combination Sum",                      "backtracking",           "medium", "backtrack remaining target"),
+    Problem(67, "Permutations",                         "backtracking",           "medium", "swap current with remaining"),
+    Problem(68, "Subsets II",                           "backtracking",           "medium", "sort skip duplicates same level"),
+    Problem(69, "Combination Sum II",                   "backtracking",           "medium", "sort skip dup elements"),
+    Problem(70, "Word Search",                          "backtracking",           "medium", "DFS mark visited unmark"),
+    Problem(71, "Palindrome Partitioning",              "backtracking",           "medium", "backtrack palindrome prefixes"),
+    Problem(72, "Letter Combinations Phone",            "backtracking",           "medium", "map digits backtrack"),
+    Problem(73, "N-Queens",                             "backtracking",           "hard",   "track col diag anti-diag"),
+    Problem(74, "Number of Islands",                    "graphs",                 "medium", "DFS mark visited"),
+    Problem(75, "Clone Graph",                          "graphs",                 "medium", "DFS hash map old to new"),
+    Problem(76, "Climbing Stairs",                      "dynamic_programming_1d", "easy",   "dp[i] = dp[i-1] + dp[i-2]"),
+    Problem(77, "Coin Change",                          "dynamic_programming_1d", "medium", "dp[i] = min(dp[i-coin]+1)"),
+    Problem(78, "Longest Increasing Subsequence",       "dynamic_programming_1d", "medium", "dp[i] = max LIS ending at i"),
+    Problem(79, "Word Break",                           "dynamic_programming_1d", "medium", "dp[i] = any dp[j] and word"),
+    Problem(80, "Combination Sum IV",                   "dynamic_programming_1d", "medium", "dp[target] = sum dp[target-num]"),
+    Problem(81, "House Robber",                         "dynamic_programming_1d", "medium", "dp[i] = max(dp[i-1], dp[i-2]+v)"),
+    Problem(82, "House Robber II",                      "dynamic_programming_1d", "medium", "run twice skip first or last"),
+    Problem(83, "Decode Ways",                          "dynamic_programming_1d", "medium", "dp[i] 1-digit and 2-digit"),
+    Problem(84, "Unique Paths",                         "dynamic_programming_2d", "medium", "dp[r][c] = dp[r-1][c]+dp[r][c-1]"),
+    Problem(85, "Longest Common Subsequence",           "dynamic_programming_2d", "medium", "match extend else max neighbors"),
+    Problem(86, "Edit Distance",                        "dynamic_programming_2d", "hard",   "replace delete insert recurrence"),
+    Problem(87, "Burst Balloons",                       "dynamic_programming_2d", "hard",   "choose last balloon in range"),
+    Problem(88, "Regular Expression Matching",          "dynamic_programming_2d", "hard",   "dp[i][j] handle star"),
+    Problem(89, "Jump Game",                            "greedy",                 "medium", "track max reachable index"),
+    Problem(90, "Jump Game II",                         "greedy",                 "medium", "BFS levels farthest range"),
+    Problem(91, "Gas Station",                          "greedy",                 "medium", "reset start when tank < 0"),
+    Problem(92, "Hand of Straights",                    "greedy",                 "medium", "sort form groups smallest first"),
+    Problem(93, "Merge Intervals",                      "greedy",                 "medium", "sort by start merge overlap"),
+    Problem(94, "Meeting Rooms II",                     "greedy",                 "medium", "min heap end times"),
+    Problem(95, "Meeting Rooms",                        "greedy",                 "easy",   "sort check no overlaps"),
+]
+
+DIFFICULTY_WEIGHT = {"easy": 0.8, "medium": 1.0, "hard": 1.3}
+
+def get_by_pattern(pattern: str) -> list[Problem]:
+    return [p for p in BLIND75 if p.pattern == pattern]
+
+def get_patterns() -> list[str]:
+    return sorted(set(p.pattern for p in BLIND75))
